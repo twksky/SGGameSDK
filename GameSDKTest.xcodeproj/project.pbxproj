@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60380D1B1E8A7F96004A1D60 /* PayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60380D191E8A7F96004A1D60 /* PayViewController.m */; };
+		60380D1C1E8A7F96004A1D60 /* PayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60380D1A1E8A7F96004A1D60 /* PayViewController.xib */; };
 		60D4AD9D1E83DCCB00DEE9D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D4AD9C1E83DCCB00DEE9D1 /* main.m */; };
 		60D4ADA01E83DCCB00DEE9D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D4AD9F1E83DCCB00DEE9D1 /* AppDelegate.m */; };
 		60D4ADA31E83DCCB00DEE9D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D4ADA21E83DCCB00DEE9D1 /* ViewController.m */; };
@@ -24,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		60380D181E8A7F96004A1D60 /* PayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayViewController.h; sourceTree = "<group>"; };
+		60380D191E8A7F96004A1D60 /* PayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayViewController.m; sourceTree = "<group>"; };
+		60380D1A1E8A7F96004A1D60 /* PayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PayViewController.xib; sourceTree = "<group>"; };
 		60D4AD981E83DCCB00DEE9D1 /* GameSDKTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameSDKTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60D4AD9C1E83DCCB00DEE9D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		60D4AD9E1E83DCCB00DEE9D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -91,6 +96,9 @@
 				60D4AD9F1E83DCCB00DEE9D1 /* AppDelegate.m */,
 				60D4ADA11E83DCCB00DEE9D1 /* ViewController.h */,
 				60D4ADA21E83DCCB00DEE9D1 /* ViewController.m */,
+				60380D181E8A7F96004A1D60 /* PayViewController.h */,
+				60380D191E8A7F96004A1D60 /* PayViewController.m */,
+				60380D1A1E8A7F96004A1D60 /* PayViewController.xib */,
 				60D4ADA41E83DCCB00DEE9D1 /* Main.storyboard */,
 				60D4ADA71E83DCCB00DEE9D1 /* Assets.xcassets */,
 				60D4ADA91E83DCCB00DEE9D1 /* LaunchScreen.storyboard */,
@@ -183,6 +191,7 @@
 				60D4ADAB1E83DCCB00DEE9D1 /* LaunchScreen.storyboard in Resources */,
 				60D4ADA81E83DCCB00DEE9D1 /* Assets.xcassets in Resources */,
 				60D4ADA61E83DCCB00DEE9D1 /* Main.storyboard in Resources */,
+				60380D1C1E8A7F96004A1D60 /* PayViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +205,7 @@
 				60D4ADA31E83DCCB00DEE9D1 /* ViewController.m in Sources */,
 				60D4ADA01E83DCCB00DEE9D1 /* AppDelegate.m in Sources */,
 				60D4AD9D1E83DCCB00DEE9D1 /* main.m in Sources */,
+				60380D1B1E8A7F96004A1D60 /* PayViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
