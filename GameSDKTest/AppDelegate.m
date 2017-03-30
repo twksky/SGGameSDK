@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "PayViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+//    self.window.backgroundColor = [UIColor whiteColor];
+    PayViewController *payVC = [PayViewController new];
+    self.window.rootViewController = payVC;
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 

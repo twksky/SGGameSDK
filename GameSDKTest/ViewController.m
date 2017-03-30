@@ -98,24 +98,7 @@
         {
             [GameSDK gameSDK_AliPayWithBundleName:[NSString stringWithFormat:@"twk%zd",arc4random()] withUserId:[NSString stringWithFormat:@"twkID%zd",arc4random()] withGameBillId:[NSString stringWithFormat:@"twkBill%zd",arc4random()] withGameCode:6 withAmt:1.1 withSuccusBlock:^(NSString *url) {
                 
-//                if (![[ZWXPaySDK defaultService] isWXAppInstalled]) {
-                    //没有安装微信
-                    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
-                    
-//                }else{
-//                    //安装微信
-//                    ZWXPayReqObject *payReqObj = [[ZWXPayReqObject alloc] init];
-//                    payReqObj.prepayUrl = url;
-////                    payReqObj.prepayId = prepayId;
-//                    [[ZWXPaySDK defaultService] sendPayReq:payReqObj viewController:self completeBlock:^(ZWXPayRespObject *respObject) {
-//                        
-//                        if (respObject.status) {
-//                            NSLog(@"成功");
-//                        } else {
-//                            NSLog(@"失败");
-//                        }
-//                    }];
-//                }
+                [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
                 
             } withFaildBlock:^(NSString *errorMsg) {
                 NSLog(@"%@",errorMsg);
